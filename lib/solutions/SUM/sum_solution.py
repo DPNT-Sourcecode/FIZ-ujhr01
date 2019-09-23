@@ -1,7 +1,8 @@
 # noinspection PyShadowingBuiltins,PyUnusedLocal
-def sum(num1, num2):
+def compute(num1, num2):
 
         sum = num1 + num2
         return sum
+
 
 
