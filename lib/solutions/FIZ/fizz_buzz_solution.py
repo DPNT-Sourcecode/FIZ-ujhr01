@@ -4,8 +4,8 @@ def check_deluxe(number_str):
     for i in range(1, length):
         if number_str[i] != number_str[0]:
             return False
-        else:
-            return True
+
+    return True
 
 def fizz_buzz(number):
     number_str = str(number)
@@ -26,5 +26,6 @@ def fizz_buzz(number):
         result = number
 
     return result
+
 
 
