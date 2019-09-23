@@ -18,9 +18,9 @@ def fizz_buzz(number):
         else :
             result = "fizz buzz"
     if number >= 10 and check_deluxe(number_str):
-        if not result.strip():
-            result = "deluxe"
-        else:
+        if isfakeDeluxe(number) == "True":
+            result = result + " fake deluxe"
+        elif isfakeDeluxe(number) == "False":
             result = result + " deluxe"
     if not result.strip():
         result = number
