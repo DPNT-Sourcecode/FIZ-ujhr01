@@ -9,4 +9,7 @@ def fizz_buzz(number):
             result = "buzz"
         else :
             result = "fizz buzz"
+    if not result.strip():
+        result = number
+
     return result
