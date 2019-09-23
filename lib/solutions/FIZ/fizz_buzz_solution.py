@@ -7,6 +7,6 @@ def fizz_buzz(number):
     if number_str.find("5") >= 0 or number % 5 == 0:
         if not result.strip():
             result = "buzz"
-        else:
+        else :
             result = "fizz buzz"
     return result
