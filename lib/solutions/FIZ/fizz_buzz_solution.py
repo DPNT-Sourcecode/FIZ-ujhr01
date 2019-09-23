@@ -21,7 +21,7 @@ def fizz_buzz(number):
             result = "buzz"
         else :
             result = "fizz buzz"
-    if number >= 10 and check_deluxe(number_str):
+    if (number_str.find("3") >= 0 and number % 3 == 0) or (number_str.find("5") >= 0 or number % 5 == 0):
         if not result.strip():
             if is_fake_deluxe(number) == "True":
                 result = result + "fake deluxe"
