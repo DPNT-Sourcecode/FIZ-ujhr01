@@ -36,5 +36,3 @@ def fizz_buzz(number):
         result = number
 
     return result
-
-
