@@ -1,6 +1,6 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
-   
+
     number_str = str(number)
     number = number
     if number%3==0 and number.find("3")>0:
