@@ -9,8 +9,9 @@ def fizz_buzz(number):
             result = "buzz"
         else :
             result = "fizz buzz"
-    if number>=10 and 
+    if number>=10 and checkDeluxe(number):
     if not result.strip():
         result = number
 
     return result
+
